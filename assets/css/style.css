@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'StarWarsFont';
+    src: url('Fonts/starjedi-webfont.woff2') format('woff2'),
+         url('Fonts/starjedi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: url("../images/StarWarsBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1 {
+    font-family: 'StarWarsFont';
+    color: white;
+    font-size: 72px;
+    margin: 0;
+    text-align: center;
+}
+
