@@ -37,3 +37,38 @@ h4 {
     color: white;
 }
 
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.character {
+    display: inline-block;
+    margin: 0px 5px 0px 5px;
+    cursor: pointer;
+}
+
+.character-name {
+    font-family: 'StarWarsFont';
+    color: white;
+    text-align: center;
+}
+
+.character-health {
+    font-family: 'StarWarsFont';
+    color: white;
+    text-align: center;
+}
+
+#homebase {
+    display: inline-block;
+    width: 48%;
+}
+
+#enemybase {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}

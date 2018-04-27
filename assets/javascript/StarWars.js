@@ -6,8 +6,8 @@ $(document).ready(function () {
   
     // Characters we have in the game
     var characters = {
-      "Darth Vader": {
-        name: "Darth Vader",
+      "Darth vader": {
+        name: "Darth vader",
         health: 120,
         attack: 8,
         imageUrl: "assets/images/DarthVader.jpg",
